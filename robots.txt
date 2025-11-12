@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://www.hbsplayground.xyz/sitemap.xml
+
+# Allow search engines to index all content
+Disallow:
+
+# Crawl delay (optional)
+Crawl-delay: 1
