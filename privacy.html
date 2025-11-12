@@ -3,9 +3,374 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    
+    <!-- Primary Meta Tags -->
+    <title>Privacy Policy - Handlebars Template Renderer</title>
+    <meta name="title" content="Privacy Policy - Handlebars Template Renderer">
+    <meta name="description" content="Privacy policy for Handlebars Template Renderer. Learn how we handle your data, protect your privacy, and ensure secure template rendering.">
+    <meta name="keywords" content="privacy policy, handlebars, template renderer, data protection, privacy, GDPR, web development tools">
+    <meta name="author" content="Rakibul Hasan">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://hbsplayground.xyz/privacy">
+    <meta property="og:title" content="Privacy Policy - Handlebars Template Renderer">
+    <meta property="og:description" content="Privacy policy for Handlebars Template Renderer. Learn how we handle your data and protect your privacy.">
+    <meta property="og:image" content="https://hbsplayground.xyz/preview-image.jpg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://hbsplayground.xyz/privacy">
+    <meta property="twitter:title" content="Privacy Policy - Handlebars Template Renderer">
+    <meta property="twitter:description" content="Privacy policy for Handlebars Template Renderer. Learn how we handle your data and protect your privacy.">
+    <meta property="twitter:image" content="https://hbsplayground.xyz/preview-image.jpg">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://hbsplayground.xyz/privacy">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Privacy Policy - Handlebars Template Renderer",
+        "description": "Privacy policy for Handlebars Template Renderer outlining data handling practices",
+        "url": "https://hbsplayground.xyz/privacy",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://hbsplayground.xyz"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Privacy Policy",
+                    "item": "https://hbsplayground.xyz/privacy"
+                }
+            ]
+        }
+    }
+    </script>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #1a1a1a;
+            color: #e0e0e0;
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px 0;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .breadcrumb {
+            background: #2d2d2d;
+            padding: 15px 0;
+            margin-bottom: 30px;
+        }
+
+        .breadcrumb a {
+            color: #667eea;
+            text-decoration: none;
+        }
+
+        .breadcrumb a:hover {
+            text-decoration: underline;
+        }
+
+        /* Content */
+        .content {
+            background: #2d2d2d;
+            border-radius: 10px;
+            padding: 40px;
+            margin-bottom: 40px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        }
+
+        .content h2 {
+            color: #667eea;
+            margin: 30px 0 15px 0;
+            font-size: 1.8em;
+            border-bottom: 2px solid #404040;
+            padding-bottom: 10px;
+        }
+
+        .content h3 {
+            color: #b0b0b0;
+            margin: 25px 0 15px 0;
+            font-size: 1.3em;
+        }
+
+        .content p {
+            margin-bottom: 15px;
+            color: #cccccc;
+        }
+
+        .content ul, .content ol {
+            margin: 15px 0;
+            padding-left: 30px;
+        }
+
+        .content li {
+            margin-bottom: 8px;
+            color: #cccccc;
+        }
+
+        .content strong {
+            color: #e0e0e0;
+        }
+
+        .highlight-box {
+            background: #363636;
+            border-left: 4px solid #667eea;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 0 8px 8px 0;
+        }
+
+        .last-updated {
+            background: #2a5c3a;
+            color: #6bff8d;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 30px 0;
+            text-align: center;
+            border-left: 4px solid #27ae60;
+        }
+
+        /* Footer */
+        .footer {
+            background: #363636;
+            padding: 30px 0;
+            text-align: center;
+            border-top: 1px solid #404040;
+            color: #b0b0b0;
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-bottom: 15px;
+        }
+
+        .footer a {
+            color: #667eea;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .content {
+                padding: 20px;
+            }
+            
+            .header h1 {
+                font-size: 2em;
+            }
+            
+            .footer-links {
+                flex-direction: column;
+                gap: 10px;
+            }
+        }
+
+        /* Print styles */
+        @media print {
+            .header, .breadcrumb, .footer {
+                display: none;
+            }
+            
+            .content {
+                box-shadow: none;
+                background: white;
+                color: black;
+            }
+        }
+    </style>
 </head>
 <body>
-    
+    <header class="header" role="banner">
+        <div class="container">
+            <h1>Privacy Policy</h1>
+            <p>How we protect and handle your data</p>
+        </div>
+    </header>
+
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+        <div class="container">
+            <a href="/">Home</a> &gt; <span>Privacy Policy</span>
+        </div>
+    </nav>
+
+    <main class="container" role="main">
+        <article class="content">
+            <div class="last-updated">
+                <strong>Last Updated:</strong> November 13, 2025
+            </div>
+
+            <h2>Introduction</h2>
+            <p>Welcome to Handlebars Template Renderer ("we," "our," or "us"). We are committed to protecting your privacy and ensuring transparency about how we handle your data. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our online Handlebars template rendering service.</p>
+
+            <div class="highlight-box">
+                <p><strong>Key Point:</strong> Your templates and data are processed entirely in your browser. We do not store or transmit your code to our servers.</p>
+            </div>
+
+            <h2>Information We Collect</h2>
+            
+            <h3>1. Information You Provide</h3>
+            <ul>
+                <li><strong>Template Content:</strong> Handlebars templates you input into our editor</li>
+                <li><strong>JSON Data:</strong> Data you provide for template rendering</li>
+                <li><strong>Uploaded Files:</strong> .hbs and .json files you choose to upload</li>
+            </ul>
+
+            <h3>2. Automatically Collected Information</h3>
+            <ul>
+                <li><strong>Usage Data:</strong> Anonymous usage statistics (renders, formats, validations)</li>
+                <li><strong>Technical Information:</strong> Browser type, version, and viewport size</li>
+                <li><strong>Performance Data:</strong> Page load times and error rates</li>
+            </ul>
+
+            <h3>3. Local Storage</h3>
+            <p>We use your browser's local storage to:</p>
+            <ul>
+                <li>Save your current work automatically</li>
+                <li>Remember your theme preferences</li>
+                <li>Store anonymous usage statistics</li>
+            </ul>
+
+            <h2>How We Use Your Information</h2>
+            <p>We use the collected information for the following purposes:</p>
+            <ul>
+                <li><strong>Service Provision:</strong> To provide template rendering functionality</li>
+                <li><strong>Improvement:</strong> To enhance and optimize our service</li>
+                <li><strong>Analytics:</strong> To understand how users interact with our tool</li>
+                <li><strong>Technical Support:</strong> To identify and fix technical issues</li>
+            </ul>
+
+            <h2>Data Processing and Storage</h2>
+            <div class="highlight-box">
+                <p><strong>Important:</strong> All template rendering occurs locally in your browser. Your code never leaves your device unless you explicitly choose to share it.</p>
+            </div>
+
+            <h3>Local Processing</h3>
+            <ul>
+                <li>Templates are compiled using Handlebars.js in your browser</li>
+                <li>JSON data is parsed and validated locally</li>
+                <li>Rendering happens entirely client-side</li>
+            </ul>
+
+            <h3>Storage Locations</h3>
+            <ul>
+                <li>Browser Local Storage (your device)</li>
+                <li>Browser Session Storage (temporary)</li>
+                <li>No server-side storage of your templates or data</li>
+            </ul>
+
+            <h2>Third-Party Services</h2>
+            <p>We use the following third-party services:</p>
+            <ul>
+                <li><strong>CDN Services:</strong> For loading CodeMirror and Handlebars libraries</li>
+                <li><strong>Analytics:</strong> Basic usage tracking (optional)</li>
+                <li><strong>Hosting:</strong> Static file hosting through our web server</li>
+            </ul>
+
+            <h2>Data Security</h2>
+            <p>We implement appropriate security measures including:</p>
+            <ul>
+                <li>HTTPS encryption for all data transmission</li>
+                <li>Content Security Policy headers</li>
+                <li>Regular security updates</li>
+                <li>Secure coding practices</li>
+            </ul>
+
+            <h2>Your Rights</h2>
+            <p>You have the right to:</p>
+            <ul>
+                <li>Access any personal data we hold about you</li>
+                <li>Correct inaccurate data</li>
+                <li>Request deletion of your data</li>
+                <li>Export your data</li>
+                <li>Opt-out of analytics tracking</li>
+            </ul>
+
+            <h2>Cookies and Tracking</h2>
+            <p>We use minimal cookies and tracking:</p>
+            <ul>
+                <li><strong>Essential Cookies:</strong> Required for basic functionality</li>
+                <li><strong>Preference Cookies:</strong> Remember your settings</li>
+                <li><strong>Analytics Cookies:</strong> Anonymous usage data (optional)</li>
+            </ul>
+
+            <h2>Children's Privacy</h2>
+            <p>Our service is not intended for children under 13. We do not knowingly collect information from children under 13.</p>
+
+            <h2>International Data Transfers</h2>
+            <p>Your data is processed locally in your browser. CDN resources may be served from global locations, but contain no personal data.</p>
+
+            <h2>Changes to This Policy</h2>
+            <p>We may update this Privacy Policy periodically. We will notify you of changes by updating the "Last Updated" date and, when feasible, through other notification methods.</p>
+
+            <h2>Contact Us</h2>
+            <p>If you have questions about this Privacy Policy, please contact us:</p>
+            <ul>
+                <li>Email: privacy@hbsplayground.xyz</li>
+                <li>GitHub Issues: For technical questions</li>
+            </ul>
+
+            <div class="highlight-box">
+                <p><strong>Summary:</strong> We respect your privacy. Your code stays on your device, and we only collect minimal data to improve the service.</p>
+            </div>
+        </article>
+    </main>
+
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-links">
+                <a href="/">Home</a>
+                <a href="/terms">Terms of Service</a>
+                <a href="/privacy">Privacy Policy</a>
+                <a href="https://github.com/handlebars-lang/handlebars.js" target="_blank" rel="noopener noreferrer">Handlebars Documentation</a>
+            </div>
+            <p>&copy; 2025 Handlebars Template Renderer. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
