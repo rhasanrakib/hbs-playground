@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: https://www.hbsplayground.xyz/sitemap.xml
+Sitemap: https://hbsplayground.xyz/sitemap.xml
 
 # Allow search engines to index all content
 Disallow:
