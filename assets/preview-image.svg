@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0" stop-color="#667eea"/>
+      <stop offset="1" stop-color="#764ba2"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#g)"/>
+  <g fill="#fff" font-family="Arial, Helvetica, sans-serif">
+    <text x="60" y="180" font-size="48" font-weight="700">Handlebars Template Renderer</text>
+    <text x="60" y="240" font-size="28">Free online HBS compiler &amp; preview tool</text>
+    <rect x="60" y="300" rx="8" ry="8" width="420" height="64" fill="rgba(0,0,0,0.15)"/>
+    <text x="80" y="340" font-size="20">Render templates with JSON — real-time preview</text>
+  </g>
+</svg>
